@@ -2,8 +2,7 @@
 
   此项目向您展示了一些未公开的WSA接口(API)\
   基于python语言编写,完全使用wsaclient.exe(没有adb),演示了关于"wsaclient.exe"的部分相关用法\
-  如果您善于观察,您会发现WSA的大部分操作都是通过"wsaclient.exe"进行的  
-
+  您可以使用这些方法用终端控制WSA
 
 # 关于wsaclient.exe
 
@@ -22,3 +21,5 @@
 # 一些其他的东西
 
   [这篇文章](https://www.bilibili.com/read/cv13713046)列出了一个"/modify"参数,不过作者没有给出详细的调用方法,如果您对这个参数感兴趣,您可以自己试试
+  此外,wsaclient似乎没有提供安装apk的方法,所以如果想要安装apk,仍需使用adb
+  
