@@ -2,7 +2,8 @@
 
   此项目向您展示了一些未公开的WSA接口(API)\
   基于python语言编写,完全使用wsaclient.exe(没有adb),演示了关于"wsaclient.exe"的部分相关用法\
-  您可以使用这些方法用终端控制WSA
+  您可以使用这些方法用终端控制WSA\
+  并且调用wsaclient.exe进行操作时,WSA会自动启动,故不需要保持WSA处于开机状态
 
 # 关于wsaclient.exe
 
