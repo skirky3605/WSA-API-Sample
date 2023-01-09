@@ -1,4 +1,4 @@
-[简体中文](https://github.com/skirky3605/WSA-API-Sample/README_zh.md)
+[简体中文](https://github.com/skirky3605/WSA-API-Sample/blob/main/README_zh.md)
 
 # Tip
 
