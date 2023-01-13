@@ -24,9 +24,9 @@ None of the APIs used by this project are publicly available and the availabilit
 
 The wsaclient API used by this project refers to the following literature:
   https://gist.github.com/vhanla/247ee77dd0cdd5449e02e2d517a13019
+  https://www.bilibili.com/read/cv13713046
 
 # Some other stuff
 
-[This article] (https://www.bilibili.com/read/cv13713046) lists a "/modify" parameter, but the author does not give a detailed call method, if you are interested in this parameter, you can try it yourself
-  Also, WSAclient doesn't seem to provide a way to install an APK, so if you want to install an APK, you'll still need to use ADB
+WSAclient doesn't seem to provide a way to install an APK, so if you want to install an APK, you'll still need to use ADB
   
