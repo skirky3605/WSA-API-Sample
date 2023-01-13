@@ -17,10 +17,10 @@
 # API来源
 
   此项目使用的关于wsaclient的API参考了以下文献:\
-  https://gist.github.com/vhanla/247ee77dd0cdd5449e02e2d517a13019
+  https://gist.github.com/vhanla/247ee77dd0cdd5449e02e2d517a13019\
+  https://www.bilibili.com/read/cv13713046
 
 # 一些其他的东西
 
-  [这篇文章](https://www.bilibili.com/read/cv13713046)列出了一个"/modify"参数,不过作者没有给出详细的调用方法,如果您对这个参数感兴趣,您可以自己试试
-  此外,wsaclient似乎没有提供安装apk的方法,所以如果想要安装apk,仍需使用adb
+  wsaclient似乎没有提供安装apk的方法,所以如果想要安装apk,仍需使用adb
   
