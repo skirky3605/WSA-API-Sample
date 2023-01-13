@@ -19,6 +19,15 @@ def open_apk():
 	Button(dialog,text="确定",command=lambda:popen("start wsa://"+package.get())).place(x="300",y="28")
 	dialog.mainloop()
 
+def modify_apk():
+	dialog = Tk()
+	dialog.geometry("400x80")
+	Label(dialog,text="输入要修改的软件包名:").place(x="10",y="0")
+	package = Entry(dialog,width=31)
+	package.place(x="10",y="30")
+	Button(dialog,text="确定",command=lambda:popen("wsaclient /modify "+package.get())).place(x="300",y="28")
+	dialog.mainloop()
+
 def main():
 	window = Tk()
 	window.geometry("300x500+10+10")
@@ -28,6 +37,7 @@ def main():
 	Button(window,text="打开开发者选项",command=lambda:popen("start wsa-client://developer-settings")).place(x="10",y="130")
 	Button(window,text="卸载应用",command=lambda:uninstall_apk()).place(x="10",y="170")
 	Button(window,text="打开应用",command=lambda:open_apk()).place(x="10",y="210")
+	Button(window,text="应用设置",command=lambda:modify_apk()).place(x="10",y="250")
 	window.mainloop()
 
 if __name__ == "__main__": 
